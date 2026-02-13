@@ -1,0 +1,98 @@
+# =========================
+# Python / PyCharm / GitHub
+# =========================
+
+# --- PyCharm / IntelliJ ---
+.idea/
+*.iml
+*.iws
+
+# --- Python cache / bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.ENV/
+virtualenv/
+pip-wheel-metadata/
+
+# --- Packaging / builds ---
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# --- Test / coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# --- Type checking / linters ---
+.pytype/
+.pyright/
+.dmypy.json
+.dmypy.json.*
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+.profile_default/
+ipython_config.py
+
+# --- Logs / temp files ---
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Environment / secrets (avoid committing) ---
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+secrets/
+config/local.yml
+config/local.yaml
+
+# --- IDE / editor extras ---
+.vscode/
+.history/
+
+# --- OS / tooling ---
+.cache/
+*.pid
+*.pid.lock
+
+# --- Local database / runtime artifacts (optional) ---
+*.sqlite3
+*.db
+*.sqlite
+instance/
+run/
+tmp/
+
+# --- If you use Flask / FastAPI local artifacts (optional) ---
+*.local
+uvicorn.log
+
+# --- Git ---
+# (Usually not needed; git ignores itself)
+# .git/
